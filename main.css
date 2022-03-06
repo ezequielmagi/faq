@@ -310,3 +310,9 @@ h1{
   /* background-color: #9fa4a8; */
 }
 }
+
+@media screen and (min-width: 1025px) {
+  header{
+    background-color: yellow;
+  }
+}
