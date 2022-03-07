@@ -9,8 +9,10 @@
 @media screen and (max-width: 768px) {
   
 header{
+  /* background: rgb(193, 171, 48); */
+
   background: rgba(72,48,193,1);
-  height: 8vh;
+  height: 10vh;
 }
 
 body{
@@ -28,9 +30,14 @@ body{
   margin: 0 auto;
 }
 
-.header-container h1{
-  margin: 0;
-  padding: 0;
+.header-container--logo{
+padding: 0.3em;
+display: flex;
+justify-content: center;
+}
+
+.header-container--logo img {
+  height: 8vh;
 }
 
 .main-container{
@@ -158,11 +165,11 @@ h1{
   /* background-color: #9fa4a8; */
 }
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   
 header{
-  background: rgb(193, 89, 48);
-  height: 8vh;
+  background: rgba(72,48,193,1);
+  height: 12vh;
 }
 
 body{
@@ -171,19 +178,15 @@ body{
 
 }
 
-.header-container{
+.header-container--logo{
+  padding: 0.3em;
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100%;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.header-container h1{
-  margin: 0;
-  padding: 0;
-}
+  }
+  
+  .header-container--logo img {
+    height: 10vh;
+  }
 
 .main-container{
   
@@ -196,17 +199,16 @@ body{
 
 .title-container{
   height: 5em;
-}
-
-h1{
   color: #fafafa;
-  /* margin: 50px 0 30px; */
+  font-size: 1.5rem;
   text-align: center;
 }
 
+
+
 .faq-container{
   height: 100%;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -223,7 +225,7 @@ h1{
 }
 
 .faq.active{
-  background-color: #e93636;
+  background-color: hsla(0, 80%, 56%, 0.637);
   box-shadow: 0.3px 6px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.1);
 }
 
@@ -311,7 +313,7 @@ h1{
 }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1440px) {
   header{
     background-color: yellow;
   }
