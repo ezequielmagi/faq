@@ -7,11 +7,8 @@
 ## What is this repository about?
 It is a project of the typical "FAQ section" of any site.
 
+## Used technology:
 
-
-## ¿De qué trata este repositorio?
-Es un proyecto de la típica "FAQ section" de cualquierl sitio.
-
-## Tecnologías utilizadas:
-
-* 
+* HTML5
+* CSS
+* JAVASCRIPT
